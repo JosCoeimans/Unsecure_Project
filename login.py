@@ -15,7 +15,7 @@ login_field = driver.find_element_by_class_name("js-username-field")
 login_field.clear()
 
 # enter username
-login_field.send_keys("ENTER USERNAME HERE")
+login_field.send_keys("joscoeimans")
 time.sleep(1)
 
 #get the password textbox
@@ -23,6 +23,6 @@ password_field = driver.find_element_by_class_name("js-password-field")
 password_field.clear()
 
 #enter password
-password_field.send_keys("ENTER PASSWORD HERE")
+password_field.send_keys("FDf#w598Mii#@Az^")
 time.sleep(1)
 password_field.submit()
